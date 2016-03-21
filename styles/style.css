@@ -1,0 +1,48 @@
+﻿body {
+
+}
+
+#wrap {
+width:750px;
+margin:20px auto;
+padding: 10px;
+
+}
+
+#tblDados{
+    width:100%;
+}
+
+#tblDados td:nth-child(1)  {
+    white-space: nowrap;
+}
+#tblDados td:nth-child(2)  {
+    width:100%;
+}
+
+.txtdados{
+    width:100%;
+}
+
+
+.recLinha{
+    font-size:1.3em;   
+}
+.recLinha::after{
+    content: '';
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1px 0;
+    padding: 0;
+}
+.recLinha::before{
+    content: '';
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1px 0;
+    padding: 0;
+}
